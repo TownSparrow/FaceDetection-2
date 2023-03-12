@@ -11,5 +11,5 @@ for (x,y,w,h) in faces:
     cv2.rectangle(img, (x,y),
                   (x+w,y+h), (0,255,0),2)
 
-cv2.imshow('rez', img)
+cv2.imshow('result', img)
 cv2.waitKey()
